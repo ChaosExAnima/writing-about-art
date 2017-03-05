@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font: 10pt Georgia, "Times New Roman", Times, serif;
+	padding: 0 5em 0 5em;
+	background-color: #FFFFFF;
+}
+h3, li  { text-align: left; }
+p {
+	font-size: 1em;
+	line-height: 2;
+	text-align: left;
+}
+
+a {
+	font-weight: normal;
+	text-decoration: none;
+	color: #000000;
+}
+
+div.header {
+	color: #000000;
+	background: #FFFFFF;
+	text-align: left;
+}
+#container {
+	border-style: none;
+	float: none;
+	margin: 0;
+	text-align: left;
+	padding: 0;
+}
+#lquote {
+	margin-right: -2px;
+	border-right: 2px solid #000000;
+}
+
+
+div.menu { display: none; }
+div.content { float: none; }
+div.content div {
+	padding: 2em 0px 2.5em;
+	float: none;
+	position: static;
+}
+
+div.content div div {
+	margin: 1em 3em;
+	padding: 0;
+}
+div.content div div p { line-height: 1.2; }
+div.content div.quote {
+	background-color: #FFFFFF;
+	border: 2px solid #000000;
+	margin: 0 5em;
+}
+div.content div.quote div {
+	color: #000000;
+	margin: 0;
+}
+div.content div.quote div p {
+	font-size: 9pt;
+	line-height: 1;
+	padding: 1em;
+}
+div.footer a { display: none; }
+
+div.footer p { color: #000000; }
+
+div.footer p a {
+	color: #000000;
+	background: #FFFFFF;
+	font-weight: normal;
+}
