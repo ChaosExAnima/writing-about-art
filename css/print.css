@@ -2,11 +2,14 @@
 /* CSS Document */
 
 body {
-	font: 10pt Georgia, "Times New Roman", Times, serif;
+	font: 10pt Georgia, 'Times New Roman', Times, serif;
 	padding: 0 5em 0 5em;
-	background-color: #FFFFFF;
+	background-color: #ffffff;
 }
-h3, li  { text-align: left; }
+h3,
+li {
+	text-align: left;
+}
 p {
 	font-size: 1em;
 	line-height: 2;
@@ -21,7 +24,7 @@ a {
 
 div.header {
 	color: #000000;
-	background: #FFFFFF;
+	background: #ffffff;
 	text-align: left;
 }
 #container {
@@ -36,9 +39,12 @@ div.header {
 	border-right: 2px solid #000000;
 }
 
-
-div.menu { display: none; }
-div.content { float: none; }
+div.menu {
+	display: none;
+}
+div.content {
+	float: none;
+}
 div.content div {
 	padding: 2em 0px 2.5em;
 	float: none;
@@ -49,9 +55,11 @@ div.content div div {
 	margin: 1em 3em;
 	padding: 0;
 }
-div.content div div p { line-height: 1.2; }
+div.content div div p {
+	line-height: 1.2;
+}
 div.content div.quote {
-	background-color: #FFFFFF;
+	background-color: #ffffff;
 	border: 2px solid #000000;
 	margin: 0 5em;
 }
@@ -64,12 +72,16 @@ div.content div.quote div p {
 	line-height: 1;
 	padding: 1em;
 }
-div.footer a { display: none; }
+div.footer a {
+	display: none;
+}
 
-div.footer p { color: #000000; }
+div.footer p {
+	color: #000000;
+}
 
 div.footer p a {
 	color: #000000;
-	background: #FFFFFF;
+	background: #ffffff;
 	font-weight: normal;
 }

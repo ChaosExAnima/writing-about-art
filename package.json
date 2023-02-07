@@ -1,0 +1,19 @@
+{
+	"devDependencies": {
+		"prettier": "^2.8.3"
+	},
+	"name": "writing-about-art",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "git@github.com:ChaosExAnima/writing-about-art.git",
+	"author": "echo <ChaosExAnima@users.noreply.github.com>",
+	"license": "MIT",
+	"scripts": {
+		"lint": "prettier"
+	},
+	"prettier": {
+		"tabWidth": 4,
+		"useTabs": true,
+		"singleQuote": true
+	}
+}

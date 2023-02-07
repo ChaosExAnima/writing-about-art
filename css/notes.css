@@ -1,10 +1,11 @@
 @charset "utf-8";
-div.content  ol li {
+div.content ol li {
 	list-style: inside;
 	list-style-type: decimal;
 	text-indent: 2em;
 }
-div.content li a:hover, div.content li a:active {
+div.content li a:hover,
+div.content li a:active {
 	font-weight: normal;
 	text-decoration: none;
 	color: #000000;

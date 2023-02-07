@@ -5,34 +5,31 @@ div.menu {
 	margin-left: -10em;
 	position: relative;
 }
-div.menu ul
-{
+div.menu ul {
 	list-style-type: none;
 	cursor: default;
 	width: 120px;
 	margin: 0;
 	padding: 0;
 }
-div.menu ul a
-{
+div.menu ul a {
 	padding: 0.5em 0.75em;
 	text-decoration: none;
-	color: #FFFFFF;
-	border: 1px solid #FFFFFF;
+	color: #ffffff;
+	border: 1px solid #ffffff;
 	display: block;
 	vertical-align: bottom;
 }
-div.menu ul a:hover, div.menu  ul a:focus
-{
-	background-color: #FFFFFF;
+div.menu ul a:hover,
+div.menu ul a:focus {
+	background-color: #ffffff;
 	color: #000000;
-	border: 1px solid #FFFFFF;
+	border: 1px solid #ffffff;
 }
-div.menu ul ul a   
-{
-	color: #CCCCCC;
+div.menu ul ul a {
+	color: #cccccc;
 	background: #000000;
-	border-color: #CCCCCC;
+	border-color: #cccccc;
 	font-size: 0.9em;
 	padding: 0.2em 0.2em 0.2em 1.5em;
 }
@@ -41,18 +38,22 @@ div.menu ul #about {
 }
 div.menu ul #buy {
 	margin-top: 2em;
-	border: 1px solid #CCCCCC;
-	color: #CCCCCC;
+	border: 1px solid #cccccc;
+	color: #cccccc;
 	background-color: #000000;
 	text-align: center;
 	display: block;
 }
 
-div.menu ul #buy a { border: none; }
+div.menu ul #buy a {
+	border: none;
+}
 
 div.menu ul #buy img {
 	border-style: none;
 	padding: 10px 0px;
 }
 
-div.menu ul #buy span { font-size: .7em; }
+div.menu ul #buy span {
+	font-size: 0.7em;
+}
