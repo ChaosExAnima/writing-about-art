@@ -1,41 +1,46 @@
 @charset "utf-8";
-body  {
+body {
 	text-align: center;
 	color: #000000;
-	font: 400 normal 0.8em/normal Verdana, Arial, Arial;
+	font: 400 normal 0.8em / normal Verdana, Arial, Arial;
 	padding: 0 50px 0 10em;
 	background: #666666;
 	margin: 0 1em;
-  }
+}
 
-h3 { margin-bottom: 0.4em;
-  }
+h3 {
+	margin-bottom: 0.4em;
+}
 
 p {
 	line-height: 1.5em;
 	text-indent: 2em;
 	margin: 0;
-  }
+}
 
-p.mod { text-indent: 0px
-  }
-blockquote    {
+p.mod {
+	text-indent: 0px;
+}
+blockquote {
 	margin: 0.5em 0em 0.5em 2em;
 	position: static;
 	padding: 0;
-  }
-blockquote p      { text-indent: 0px
-  }
-blockquote p.mod      { text-indent: 2em
-  }
-p.biblio  {
+}
+blockquote p {
+	text-indent: 0px;
+}
+blockquote p.mod {
+	text-indent: 2em;
+}
+p.biblio {
 	text-indent: -2em;
 	margin-left: 2em;
 }
 
-sup, sub {
-  line-height: 0px
-  }
+sup,
+sub {
+	line-height: 0px;
+}
 
 div.header {
 	color: #ffffff;
@@ -43,19 +48,19 @@ div.header {
 	background-color: #666666;
 	margin: 0 -50px 0 -10em;
 	padding: 0.5em 50px 0.5em 10em;
-  }
+}
 
 div.header h1 {
 	font-size: 2em;
 	margin: 0.5em 0px;
-  }
+}
 
 div.header div {
-  font-size: 1em;
-  font-weight: 400;
-  float: right;
-  margin-top: 2em
-  }
+	font-size: 1em;
+	font-weight: 400;
+	float: right;
+	margin-top: 2em;
+}
 #container {
 	width: 100%;
 	border-left: 10em solid #666666;
@@ -64,21 +69,20 @@ div.header div {
 	display: inline;
 	float: left;
 	text-align: left;
-	background: #FFFFFF;
+	background: #ffffff;
 }
-
 
 div.content {
 	width: 100%;
 	float: left;
 	margin-right: -100%;
-  }
+}
 div.content div {
 	padding: 2em 3em 0em 2.5em;
 	position: relative;
 	margin-bottom: 2em;
 }
-div.content  div.mod {
+div.content div.mod {
 	margin: 1em 0;
 	padding: 1em;
 	border: 1px solid black;
@@ -87,24 +91,29 @@ div.content  div.mod {
 div.content li {
 	line-height: 1.3em;
 	margin-top: 1em;
-  }
+}
 
-div.content ul, div.content ol {
+div.content ul,
+div.content ol {
 	margin: 0px;
 	padding: 0px;
 	list-style-position: inside;
 }
 
-div.content a:link, div.content a:visited {
+div.content a:link,
+div.content a:visited {
 	color: #000000;
 	text-decoration: none;
-  }
+}
 
-div.content a:hover, div.content a:active { color: #000000;  }
+div.content a:hover,
+div.content a:active {
+	color: #000000;
+}
 
 div.footer {
 	clear: both;
-	width:100%;
+	width: 100%;
 	text-align: left;
 	padding: 1em 50px 0.75em 10em;
 	margin: 0px -50px 0px -10em;
@@ -112,12 +121,12 @@ div.footer {
 }
 
 div.footer a {
-	color: #CCCCCC;
+	color: #cccccc;
 	background: #000000;
 	padding: 0.5em 0.75em;
 	margin: 0 0.3em;
 	text-decoration: none;
-	border: 1px solid #CCCCCC;
+	border: 1px solid #cccccc;
 	float: right;
 	display: block;
 }
@@ -130,16 +139,16 @@ div.footer p a {
 	border-style: none;
 }
 
-div.footer a:hover, div.footer a:active {
-	color: #FFFFFF;
-	border-color: #FFFFFF;
+div.footer a:hover,
+div.footer a:active {
+	color: #ffffff;
+	border-color: #ffffff;
 }
-
 
 div.footer p {
 	text-indent: 0px;
 	text-align: left;
-	color: #CCCCCC;
+	color: #cccccc;
 	font-size: 1em;
 	line-height: 2.4em;
 }
